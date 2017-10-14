@@ -17,7 +17,7 @@ public class DepositAccount {
 		balance+=m;
 		System.out.println("该用户存款金额为:"+m);
 	}
-	public boolean withdrawl(float m)
+	public boolean withdrawl(float m)//取款
 	{
 		if(m<=balance)
 		{
